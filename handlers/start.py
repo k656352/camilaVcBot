@@ -14,7 +14,7 @@ async def start_(client: Client, message: Message):
         f"""<b>Hi {message.from_user.first_name}!
 \nI can play music in your group's voice chat
 
-Music Assistant - @camilaowner
+Music Assistant - @Dark_Ungel_1
 \nTo add in your group contact us at @camila_Support or do /userbotjoin
 \nHit /help list of available commands.
  </b>""",
@@ -24,7 +24,7 @@ Music Assistant - @camilaowner
             [
                 [
                     InlineKeyboardButton(
-                      "✨CamilaAssistant", url="https://t.me/camilaowner",
+                      "✨Red Cuty assistant", url="https://t.me/Dark_Ungel_1",
                     )
                 ],
                 [
@@ -32,7 +32,7 @@ Music Assistant - @camilaowner
                         "💬 Help Group", url="https://t.me/warbotzsupport"
                     ),
                     InlineKeyboardButton(
-                        "stickers💖", url="https://t.me/stickersbag"
+                        "stickers💖", url="https://t.me/addstickers/MissDevil"
                     ),
                     InlineKeyboardButton(
                         "✨GitHub✨", url="http://www.github.com/xabhishek/camilavcbot"
@@ -64,10 +64,10 @@ async def start(client: Client, message: Message):
                 ],    
                 [    
                     InlineKeyboardButton(
-                        "✅ Yes", switch_inline_query_current_chat=""
+                        "✅ Yes ✅ ", switch_inline_query_current_chat=""
                     ),
                     InlineKeyboardButton(
-                        "No ❌", callback_data="close"
+                        "❌ No ❌", callback_data="close"
                     )
                 ]
             ]
